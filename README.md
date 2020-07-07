@@ -19,4 +19,5 @@ Logistic Regression | 83.20%
 Decision Tree Classifier| 83.60%
 Random Forest Classifier | 82.80%
 
-### *Conclusion : I kept the count of trees in the Decision Tree Classifier as 3. I incresed the count beyond 3 and the model was converging towards overfitting. Accuracy more than 84%. It is ideal to keep the count of trees to 3 for this model since the independent variables are not many.*
+### *Conclusion : I kept the count of node in the Decision Tree Classifier as 3. I incresed the count beyond 3 and the model was converging towards overfitting. Accuracy more than 84%. It is ideal to keep the count of nodes to 3 for this model since the independent variables are not many.*
+### *The same scenario occurs with Random Forest Classifier when I Increased the trees. Increasing trees results in overfitting.*
