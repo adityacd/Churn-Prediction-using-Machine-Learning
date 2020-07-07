@@ -1,4 +1,4 @@
-# Churn-Prediction-using-Machine-Learning
+# Customer-Churn-Prediction-using-Machine-Learning
 
 ### I have done this project for practicing my Machine learning understanding and concepts.
 ### Customer is will Churn or Loyal for a Company. 
@@ -8,10 +8,12 @@
 * [Decision Tree Classifier](https://towardsdatascience.com/decision-tree-classification-de64fc4d5aac)
 * [Random Forest Classifier](https://towardsdatascience.com/random-forest-classification-and-its-implementation-d5d840dbead0)
 
-
+The Decision Tree Classifier has the better testing accuracy compared to the other models that I have used.
 
 ML Model | Accuracy
 ------------ | -------------
 Logistic Regression | 83.20%
 Decision Tree Classifier| 83.60%
 Random Forest Classifier | 82.80%
+
+### *Conclusion : I kept the count of trees in the Decision Tree Classifier as 3. I incresed the count beyond 3 and the model was converging towards overfitting. Accuracy more than 84%. It is ideal to keep the count of trees to 3 for this model since the independent variables are not many.*
